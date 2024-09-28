@@ -15,9 +15,13 @@ body{
 
 .navbar{
     display: flex;
-    position: sticky;
     background-color: #FCAF02;
     justify-content: space-between;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .navbar img{
     padding: 10px;
