@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Css reset */
+body{
+    background-color: #000000;
+}
+
+*{
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling navbar */
+
+.navbar{
+    display: flex;
+    position: sticky;
+    background-color: #FCAF02;
+    justify-content: space-between;
+}
+.navbar img{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+ul{
+    display: flex;
+    margin: 1px;
+    padding: 10px;
+    list-style: none;
+}
+ul li{
+    margin: 10px;
+     margin-left: 20px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+}
+
+/* section styling */
+
+
+.intro{
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+}
+.heading{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    line-height: normal;
+    
+}
+.heading> h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.image > img{
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn{
+    margin-top: 10px;
+    text-align: center;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #FCAF02;
+    padding: 10px;
+    color: #000000;
+
+}
+
+/* Styling Contact section */
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+}
+
+form input{
+    color: #FCAF02 ;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #FCAF02;
+    background: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.form-inputbox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+#heading{
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color:#FCAF02; 
+    opacity: 1; 
+}
+
+.contact{
+    padding: 5px 20px;
+    color: #FCAF02;
+}
+#btn{
+    display: block;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #FCAF02;
+    padding: 10px;
+    color: #000000;
+}
+
+.intro div{
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    /* height: ; */
+}
+/* Table Styling */
+.table{
+    width: 98vw;
+    padding: 20px;
+    margin-top: 50px;
+}
+table {
+    color: #FCAF02;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid #FCAF02;
+    max-width: 100vw;
+}
+th{
+    text-align: start;
+    padding: 8px;
+    border: 2px solid #FCAF02;
+}
+tfoot td:last-child, td,th{
+    padding: 15px 10px;
+    border-right: 2px solid #FCAF02;
+}
+tfoot{
+    background-color: #FCAF02;
+    color: #000000;
+}
+tfoot td{
+    border-right: 2px solid #000000;
+}
